@@ -1,0 +1,36 @@
+#tcoApiForm {
+    position: relative;
+    padding: 10px 0px;
+}
+
+.tco-error li {
+    margin-left: 15px;
+}
+
+.tco-error {
+    background: #F32A2A;
+    color: #FFF;
+    padding: 10px;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+#tcoWait .text {
+    margin: auto;
+    position: relative;
+    top: 30%;
+    color: #555;
+}
+
+#tcoWait {
+    text-align: center;
+    width: 100%;
+    display: none;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    color: #4939E4;
+    z-index: 99;
+    background: rgba(252, 252, 252, 0.7);
+}
